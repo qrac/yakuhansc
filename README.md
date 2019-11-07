@@ -1,5 +1,7 @@
 # Yaku Han SC
 
+![Yaku Han SC Preview](https://i.gyazo.com/73d6ed1c6b901551c9b7fb0b92d33a72.png)
+
 ## About
 
 Yaku Han SC 是一种“专用半角专用 Web 字体”，它将 Web 上中文（简体）文本中包含的标点符号减半。
