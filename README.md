@@ -44,7 +44,7 @@ Yaku Han SC 是一种“专用半角专用 Web 字体”，它将 Web 上中文�
 
 | フォント名  | HTML に貼る CDN リンクタグ                                                                               |
 | :---------: | -------------------------------------------------------------------------------------------------------- |
-| `YakuHanSC` | `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhansc@1.0.9/dist/css/yakuhansc.min.css">` |
+| `YakuHanSC` | `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhansc@1.0.1/dist/css/yakuhansc.min.css">` |
 
 ## npm
 
