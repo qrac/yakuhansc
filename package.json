@@ -1,0 +1,33 @@
+{
+  "name": "yakuhansc",
+  "description": "Dedicated half angle Only Web Fonts",
+  "version": "1.0.0",
+  "main": "dist/css/yakuhansc.css",
+  "license": "(OFL-1.1 AND MIT)",
+  "repository": "https://qrac@github.com/qrac/yakuhansc.git",
+  "bugs": "https://github.com/qrac/yakuhansc/issues",
+  "keywords": [
+    "font",
+    "webfont",
+    "simplified",
+    "chinese",
+    "yakuhanjp",
+    "yakuhansc"
+  ],
+  "author": {
+    "name": "Qrac",
+    "url": "https://qrac.jp"
+  },
+  "organization": {
+    "name": "QRANOKO",
+    "url": "https://qranoko.jp"
+  },
+  "scripts": {
+    "uni": "node ./lib/unicode-range",
+    "build": "node-sass ./src/scss -o ./dist/css --output-style expanded && cleancss -o ./dist/css/yakuhansc.min.css ./dist/css/yakuhansc.css",
+    "clean": "rmtrash ./public"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

@@ -1,0 +1,68 @@
+//----------------------------------------------------
+/*! YakuHanSC v1.0.0 (OFL-1.1 AND MIT) by Qrac */
+/*! Type: YakuHanSC - Based on Noto Sans CJK SC */
+//----------------------------------------------------
+
+$yakuhansc-font-family: "YakuHanSC" !default;
+$yakuhansc-font-file: "YakuHanSC" !default;
+$yakuhansc-font-dir: "../fonts" !default;
+$yakuhansc-swap-use: true !default;
+$yakuhansc-eot-use: true !default;
+$yakuhansc-cdn-use: false !default;
+$yakuhansc-cdn-version: "1.0.0" !default;
+$yakuhansc-unicode-range-use: true !default;
+$yakuhansc-unicode: U+3002, U+ff0c !default;
+$yakuhansc-weight: (
+  100: "Thin",
+  200: "Light",
+  300: "DemiLight",
+  400: "Regular",
+  500: "Medium",
+  700: "Bold",
+  900: "Black"
+) !default;
+
+@each $key, $value in $yakuhansc-weight {
+  @font-face {
+    $family: $yakuhansc-font-family;
+    $file: $yakuhansc-font-file;
+    $dir: $yakuhansc-font-dir;
+    $swap: $yakuhansc-swap-use;
+    $eot: $yakuhansc-eot-use;
+    $cdn: $yakuhansc-cdn-use;
+    $version: $yakuhansc-cdn-version;
+    $jsdelivr: "https://cdn.jsdelivr.net/npm/yakuhansc";
+    $unicode-range: $yakuhansc-unicode-range-use;
+    $unicode: $yakuhansc-unicode;
+
+    font-family: $family;
+    font-style: normal;
+    font-weight: $key;
+
+    @if $swap == true {
+      font-display: swap;
+    }
+
+    @if $eot == true and $cdn == true {
+      src: url("#{$jsdelivr}@#{$version}/dist/fonts/#{$file}/#{$file}-#{$value}.eot");
+    }
+
+    @if $eot == true and $cdn == false {
+      src: url("#{$dir}/#{$file}/#{$file}-#{$value}.eot");
+    }
+
+    @if $cdn == true {
+      src: url("#{$jsdelivr}@#{$version}/dist/fonts/#{$file}/#{$file}-#{$value}.woff2")
+          format("woff2"),
+        url("#{$jsdelivr}@#{$version}/dist/fonts/#{$file}/#{$file}-#{$value}.woff")
+          format("woff");
+    } @else {
+      src: url("#{$dir}/#{$file}/#{$file}-#{$value}.woff2") format("woff2"),
+        url("#{$dir}/#{$file}/#{$file}-#{$value}.woff") format("woff");
+    }
+
+    @if $unicode-range == true {
+      unicode-range: $unicode;
+    }
+  }
+}

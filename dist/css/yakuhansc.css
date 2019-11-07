@@ -1,0 +1,71 @@
+/*! YakuHanSC v1.0.0 (OFL-1.1 AND MIT) by Qrac */
+/*! Type: YakuHanSC - Based on Noto Sans CJK SC */
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-Thin.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-Thin.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-Thin.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
+
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-Light.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-Light.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-Light.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
+
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-DemiLight.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-DemiLight.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-DemiLight.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
+
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-Regular.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-Regular.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-Regular.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
+
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-Medium.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-Medium.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-Medium.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
+
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-Bold.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-Bold.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-Bold.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
+
+@font-face {
+  font-family: "YakuHanSC";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/YakuHanSC/YakuHanSC-Black.eot");
+  src: url("../fonts/YakuHanSC/YakuHanSC-Black.woff2") format("woff2"), url("../fonts/YakuHanSC/YakuHanSC-Black.woff") format("woff");
+  unicode-range: U+3002, U+ff0c;
+}
