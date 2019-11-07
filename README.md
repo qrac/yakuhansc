@@ -4,7 +4,7 @@
 
 ## About
 
-Yaku Han SC 是一种“专用半角专用 Web 字体”，它将 Web 上中文（简体）文本中包含的标点符号减半。
+Yaku Han SC 是一种“专用半角专用 Web 字体”，它将 Web 上中文（简体）文本中包含的标点符号减半。这是[YakuHanJP](https://yakuhanjp.qranoko.jp/)的中文版本。
 
 ## Detail
 
